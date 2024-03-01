@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfil de jared</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color:black;
+            font-family: 'Times New Roman', Times, serif;
+            color:black;
+            text-align: center;
+
+        }
+        .perfil{
+        margin: 20px auto;
+        width: 80%;
+        max-width: 600px;
+        background-color:red;
+        padding: 20px;
+        box-shadow: 0 0 10px black;
+        }
+        .foto-perfil{
+            width: 250px;/*ancho de la imagen*/
+            height: auto;/*altura de la imagen*/
+            border-radius: 50%;/*borde(Radio) de la imagen*/
+            margin: 0 auto;/*margen de la imagen*/
+            display: block;/*movimento de la imagen (supongo)*/
+        }
+        ul{
+           list-style: circle;
+           padding: right; 
+        }
+    </style>
+    <div class="perfil">
+        <img src="c:\Users\sazua\Music\Darryl.webp" alt="me gusta la programacion" class="foto-perfil">
+        <h1 id="nombre">jared Azuara</h1>
+        <h3 id="especialidad">especialida de programacion</h3>
+        <ul>
+        <li id="musica">Musica favorita  </li>
+        <li id="videojuegos">videojuegos favoritos</li>
+        </ul>
+        <h2>informacion de contacto</h2>
+        <p id="">Telefono</p>
+        <p id="">Correo</p>
+        <p id="">Biografia</p>
+    </div>
+    <script>
+     document.addEventListener{'DOMContentloaded',function(){
+            document.getElementById('nombre').textContent="Jared Azuara";
+            document.getElementById('especialidad').textContent="Programacion";
+            document.getElementById('musica').textContent="lo que sientio CUCO";
+            document.getElementById('videojuegos').textContent="Brawl Stars";
+        }}
+    </script>
+</body>
+</html>
