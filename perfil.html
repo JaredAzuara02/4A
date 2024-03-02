@@ -3,56 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>perfil de jared</title>
+    <title>Perfil de Jared</title>
 </head>
 <body>
     <style>
         body{
-            background-color:black;
+            background-color: black;
             font-family: 'Times New Roman', Times, serif;
-            color:black;
+            color: black;
             text-align: center;
-
         }
         .perfil{
-        margin: 20px auto;
-        width: 80%;
-        max-width: 600px;
-        background-color:red;
-        padding: 20px;
-        box-shadow: 0 0 10px black;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: red;
+            padding: 20px;
+            box-shadow: 0 0 10px black;
+
         }
         .foto-perfil{
-            width: 250px;/*ancho de la imagen*/
-            height: auto;/*altura de la imagen*/
-            border-radius: 50%;/*borde(Radio) de la imagen*/
-            margin: 0 auto;/*margen de la imagen*/
-            display: block;/*movimento de la imagen (supongo)*/
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
         }
         ul{
-           list-style: circle;
-           padding: right; 
+            list-style: circle;
+            padding: right;
         }
+        
     </style>
     <div class="perfil">
-        <img src="c:\Users\sazua\Music\Darryl.webp" alt="me gusta la programacion" class="foto-perfil">
-        <h1 id="nombre">jared Azuara</h1>
-        <h3 id="especialidad">especialida de programacion</h3>
+        <img src="Darryl.jpg" alt="Arriba el zorro"
+        class="foto-perfil">
+        <h1 id="nombre">Jared Azuara</h1>
+        <h3 id="especialidad">Programacion</h3>
         <ul>
-        <li id="musica">Musica favorita  </li>
-        <li id="videojuegos">videojuegos favoritos</li>
+        <li id="musica">Musica favorita: lo que siento,cuco</p>
+        <li id="videojuegos">Juegos Favoritos:Braw Stars</li>
         </ul>
-        <h2>informacion de contacto</h2>
-        <p id="">Telefono</p>
-        <p id="">Correo</p>
-        <p id="">Biografia</p>
-    </div>
+        <h2>Informacion de contacto</h2>
+        <p id=""></p>Telefono:8021309289</p>
+        <p id="">Correo: jared03@gmail.com</p>
+        <p id="">Biografia:amigable,medianamente inteligente</p>
+     <div>
     <script>
-     document.addEventListener{'DOMContentloaded',function(){
-            document.getElementById('nombre').textContent="Jared Azuara";
-            document.getElementById('especialidad').textContent="Programacion";
-            document.getElementById('musica').textContent="lo que sientio CUCO";
-            document.getElementById('videojuegos').textContent="Brawl Stars";
+        document.addEventListener{'DOMContentLoaded',function(){
+            document.getElementById('nombre').textContent='Jared Azuara';
+            document.getElementById('especialidad').textContent='Programacion';
+            document.getElementById('musica').textContent='lo que siento, cuco';
+            document.getElementById('videojuegos').textContent='Brawl Stars';
+            document.getElementById('Telefono').textContent='8021309289';
+            document.getElementById('Correo').textContent='jared03@gmail.com';
+            document.getElementById('Biografia').textContent='amigable,medianamente inteligente';
         }}
     </script>
 </body>
