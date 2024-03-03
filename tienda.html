@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>Tienda de jared</title>
+</head>
+<body>
+    <style>
+        img{
+            width: 200px;
+            height: auto;
+        }
+        table,th,td{
+            border: 1px dotted royalblue;
+        }
+        table{
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px black;
+            margin-left: 50px;
+        }
+        th,tr{
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: yellowgreen;
+        }
+        tr:hover{
+            background-color: red;
+        }
+    </style>
+   <div style="margin :24px;">
+    <nav class="nav navbar-light" style ="background-color: black;"> 
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="color:red;">Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidad 1</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                    href="perfil.html">Perfil</a><br>
+                    <a class="dropdown-item"
+                    href="calculadora.html">Calculadora</a><br>
+                    <a class="dropdown-item"
+                    href="tienda.html">Tienda parte 1</a>
+                    </div>   
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false" >Unidad 2</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                    href="tiendapedido.html">tienda pedido</a><br>
+                    <a class="dropdown-item"
+                    href="json.html">json</a><br>
+                    <a class="dropdown-item"
+                    href="tiendapedido2.html">Tienda parte 2</a>
+                    </div>                           
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false" >Unidad 3</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                     class="dropdown-item"
+                    href="basededatos.html">base de datos</a><br>
+                    <a class="dropdown-item"
+                    href="peliculas.html">peliculas</a>
+
+                    </div>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+    <h1>Desayuno</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+          <td><img src="img/comida/30.jpg" alt="Desayuno"></td> 
+          <td><p>Los huevos estrellados con chilaquiles son un plato típico de México.
+             Son huevos fritos que se sirven encima de tortillas fritas, 
+             picadas en trozos y rehogadas en salsa de tomate, 
+             ajo, cebolla y chile. Es un plato energético y muy sabroso,
+             ideal para un desayuno fuerte.</p></td>
+           <td>$100.00</td>
+         </tr>
+         <tr>
+            <td><img src="img/comida/29.jpg" alt="Desayuno"></td> 
+            <td><p>Los hot cakes, o panqueques, se sirven calientes con una variedad de aderezos, 
+            como mermelada, dulce de leche, miel, crema, mantequilla,
+             o incluso queso rallado o frutas frescas. </p></td>
+             <td>$50</td>
+          </tr>
+          <tr>
+            <td><img src="img/comida/28.jpg" alt="Desayuno"></td> 
+            <td><p>Los wafles son un postre delicioso y popular, de origen belga
+             Son delicados, dulces y de textura esponjosa. Se pueden servir calientes o fríos y acompañados de una variedad de ingredientes,
+             como nueces, fresas, arándanos, canela o chocolate.</p></td>
+            <td>$50</td> 
+          </tr>
+          <tr>
+            <td><img src="img/comida/27.jpg" alt="Desayuno"></td> 
+            <td><p>Los cuernitos son un pan dulce cóncavo y redondo, de origen español,
+             popular en la mayor parte de América Latina.
+            Su textura suave y su relleno de azúcar y canela hacen de estos panecillos un deleite para los paladares más exigentes. 
+            Acompáñalos de chocolate caliente o café y disfrutarás de un momento de relajación y deleite.</p></td>
+            <td>$60</td> 
+          </tr>
+          <tr>
+            <td><img src="img/comida/26.jpg" alt="Desayuno"></td> 
+            <td><p> Una deliciosa concha española con un acompañamiento de café,
+             ¡un momento de pureza, delicadeza y buen sabor! El aroma y el sabor del café con un delicado sabor a vainilla y azúcar,
+             combinado con una sabrosa y tierna concha es una delicia sin igual.</p></td>
+            <td>$40</td> 
+          </tr>
+          <tr>
+            <td><img src="img/comida/25.jpg" alt="Desayuno"></td> 
+            <td><p>Un delicioso cafe calientito recien preparado al gusto.</p></td>
+            <td>$20</td> 
+          </tr>
+    </table>
+    <h1>Comida/aperitivos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+          <td><img src="img/7.jpg" alt="Comida/aperitivos"></td> 
+          <td><p>El pastel de chocolate es un postre conocido internacionalmente 
+            que se popularizó a finales del siglo XIX. 
+            Se sirve frecuentemente en reuniones
+            , como fiestas de cumpleaños y bodas.</p></td>
+          <td>$100.00</td> 
+        </tr>
+        <tr>
+            <td><img src="img/8.jpg" alt="Comida/aperitivos"></td> 
+            <td><p>El pastel de chocolate es un postre conocido internacionalmente 
+              que se popularizó a finales del siglo XIX. 
+              Se sirve frecuentemente en reuniones
+              , como fiestas de cumpleaños y bodas.</p></td>
+            <td>$100.00</td> 
+          </tr>
+          <tr>
+            <td><img src="img/9.jpg" alt="Comida/aperitivos"></td> 
+            <td><p>El pastel de chocolate es un postre conocido internacionalmente 
+              que se popularizó a finales del siglo XIX. 
+              Se sirve frecuentemente en reuniones
+              , como fiestas de cumpleaños y bodas.</p></td>
+            <td>$100.00</td> 
+          </tr>
+          <tr>
+            <td><img src="img/10.jpg" alt="Comida/aperitivos"></td> 
+            <td><p>El pastel de chocolate es un postre conocido internacionalmente 
+              que se popularizó a finales del siglo XIX. 
+              Se sirve frecuentemente en reuniones
+              , como fiestas de cumpleaños y bodas.</p></td>
+            <td>$100.00</td> 
+          </tr>
+          <tr>
+            <td><img src="img/11.jpg" alt="Comida/aperitivos"></td> 
+            <td><p>El pastel de chocolate es un postre conocido internacionalmente 
+              que se popularizó a finales del siglo XIX. 
+              Se sirve frecuentemente en reuniones
+              , como fiestas de cumpleaños y bodas.</p></td>
+            <td>$100.00</td> 
+          </tr>
+          <tr>
+            <td><img src="img/12.jpg" alt="Comida/aperitivos"></td> 
+            <td><p>El pastel de chocolate es un postre conocido internacionalmente 
+              que se popularizó a finales del siglo XIX. 
+              Se sirve frecuentemente en reuniones
+              , como fiestas de cumpleaños y bodas.</p></td>
+            <td>$100.00</td> 
+          </tr>
+    </table>
+</body>
+</html>
