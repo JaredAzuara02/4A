@@ -17,20 +17,19 @@
             position: relative;
             width: 100%;
             width: 100%;
-            background: : url('img/deadpool.jpg') no-repeat center center/cover ;
+            background: url('img/deadpool.jpg') no-repeat center center/cover ;
           opacity: 50%;
           left:100px;
           top: 50%;
         }
       texto-presentacion{
         position:absolute;
-        top:50%,
-          left:50%;
+        top:50%;
+        left:50%;
         transform: translate(-50%,-50%);
         color:red;
-        text-aling:center;
-      }
-      .circulo{
+        text-align:center;
+        text-shadow:1px 1px 2px black;
       }
       .cuadrado{
         height:300px;
@@ -49,22 +48,27 @@
         width: 0;
         height: 0;
         border-top: 40px solid transparent;
-        border-rigth:40px solid transparent;
+        border-right:40px solid transparent;
         border-bottom:80px solid black;
       }
       .trianguloizquierdo{
         width: 0;
         height:0;
         border-top:40px solid transparent;
-        border-rigth:40px solid black;
+        border-right:40px solid black;
         border-bottom:40px solid;
       }
       .elipse{
+        float:left;
         width:150px;
         height:150px;
         margin:20px;
+        shape-outside: ellipse(20% 50%);
+        clip-path:ellipse(20% 50%);
         background-color:black;
         border:2px solid white;
+        -moz-border-radius: 0 100px 100px 0;
+        -webkit-border-radius: 0 100px 100px 0;
       }
     </style>
     <div class="deadpool">
@@ -77,6 +81,11 @@
   <div class="cuadrado" style="left:150px;top:70px;border-radius:50%;"></div>
    <div class="cuadrado" style="width:100px;height:100px;left:200px;top:250px;border-radius:50%;"></div>
   <div class="ojos" style=top:-200px left:170px"></div>
-  <div class="cuadrado" style=height:20px widht:20px;left:150px
+  <div class="ojos" style="top: -380px; left: 170px;"></div>
+  <div class="cuadrado" style="height: 20px; width: 20px; left: 190px; top:170px; border-radius: 50%;
+  top:170px; border-radius: 50%; background-color: white;"></div>
+  <div class="cuadrado" style="height: 20px; width: 20px; left: 260px; top:170px; border-radius: 50%;
+  top:170px; border-radius: 50%; background-color: white;"></div>
+  <div class="elipse" style="transform: rotate(90deg) ;"></div>
 </body>
 </html>
