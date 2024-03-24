@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deadpool</title>
+    <title>perritoelegante</title>
 </head>
 <body>
     <style>
-        body html{
+      body html{
             margin: 0;
             padding: 0;
             width: 0;
             height: 100%;
-               }
-        .deadpool{
-            position: relative;
-            width: 50%;
-            width: 50%;
-         background: url('img/comida/caradededpolxddd.jpg') no-repeat center center/cover ;
-          opacity: 50%;
-          left:700px;
-          top: 100px;
+       }
+      .perrito{
+        position: center;
+        width: 500px;
+        height: 500px;
+        background: url('img/comida/perrito.jpg') no-repeat center center/cover ;
+        opacity: 50px;
+        left:500px;
+        top: 50px;
         }
       texto-presentacion{
         position:absolute;
@@ -31,10 +31,10 @@
         text-align:center;
         text-shadow:1px 1px 2px black;
       }
-      .cuadrado{
-        height:200px;
-        width:200px;
-        background-color:red;
+      .cara{
+        height:100px;
+        width:100px;
+        background-color:#E0C879;
         position:absolute;
       }
       .ojos{
@@ -45,48 +45,67 @@
         border-radius:50% 50% 50% 50%/ 60% 60% 60% 60%;
         position:relative;
       }
-      .triangulo-normal{
-        width: 0;
-        height: 0;
-        border-top: 40px solid transparent;
-        border-right:40px solid transparent;
-        border-bottom:80px solid black;
+      .cuerpo{
+        width: 290px;
+        height: 300px;
+        border-radius: 40%;
+        background-color:#E0C879;
+        position:relative;
+        top:-500px;
+        left: 610px;
       }
-      .trianguloizquierdo{
-        width: 0;
-        height:0;
-        border-top:40px solid transparent;
-        border-right:40px solid black;
-        border-bottom:40px solid;
+      .pata{
+        width:100px;
+        height: 300px;
+        background-color: #E0C879;
+        position: relative;
+        top: -800px;
+        left: 550px;
+        border-radius: 10%;
       }
-      .elipse{
-        float:left;
-        width:150px;
-        height:150px;
-        margin:20px;
-        shape-outside: ellipse(20% 50%);
-        clip-path:ellipse(20% 50%);
-        background-color:black;
-        border:2px solid white;
-        -moz-border-radius: 0 100px 100px 0;
-        -webkit-border-radius: 0 100px 100px 0;
+      .pata2{
+        width:100px;
+        height: 300px;
+        background-color: #E0C879;
+        position: relative;
+        top: -1100px;
+        left: 880px;
+        border-radius: 10%;
       }
-    </style>
-    <div class="deadpool">
+      .oreja{
+        width: 80px;
+        height: 120px;
+        background-color: #E0C879;
+        position: relative;
+        top: -1600px;
+        left: 580px;
+        border-radius: 30%;
+      }
+      .oreja2{
+        width: 80px;
+        height: 120px;
+        background-color: #E0C879;
+        position: relative;
+        top: -1725px;
+        left: 840px;
+        border-radius: 30%;
+      }
+      </style>
+    <div class="perrito">
       <div class="texto-presentacion">
         <h1>Mi primer dibujo en CSS</h1>
-        <h2>Diseñado por jared el veracruzano</h2>
+        <h2>Diseñado por jared Azuara el veracruzano</h2>
         <p>De la especialidad de programacion de 4 semestre de la prepa</p>
       </div>
     </div>
-  <div class="cuadrado" style="left:700px;top:70px;border-radius:80%;"></div>
-   <div class="cuadrado" style="width:300px;height:300px;left:670px;top:250px;border-radius:50%;"></div>
-  <div class="ojos" style=top:-30px;left:720px;></div>
-  <div class="ojos" style="top: -140px; left: 800px;"></div>
-  <div class="cuadrado" style="height: 20px; width: 20px; left: 750px; top:170px; border-radius: 50%;
-  top:170px; border-radius: 50%; background-color: white;"></div>
-  <div class="cuadrado" style="height: 20px; width: 20px; left: 830px; top:170px; border-radius: 50%;
-  top:170px; border-radius: 50%; background-color: white;"></div>
-  <div class="elipse" style="transform: rotate(90deg) ;"></div>
+   <div class="cara" style="width:270px;height:250px;left:620px;top:70px;border-radius:60%;"></div>
+  <div class="ojos" style=top:-400px;left:650px;></div>
+  <div class="ojos" style="top: -515px; left: 780px;"></div>
+  <div class="ojos" style="top: -540px; left: 730px; width:30px; height: 30px;"></div>
+  <div class="cuerpo"></div>
+  <div class="pata"></div>
+  <div class="pata2"></div>
+  <div class="oreja"></div>
+  <div class="oreja2"></div>
 </body>
 </html>
