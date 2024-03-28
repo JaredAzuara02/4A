@@ -29,5 +29,7 @@ then(data=>{
 
     });
     
-})
+});
+//¿Que hace? para cada item dentro de category.items   
+
 
